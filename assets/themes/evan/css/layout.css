@@ -42,8 +42,8 @@ h1 {
 aside { margin-top:36px; }
 
 aside.colophon p {  
-  font-size:20px;
-  line-height:29px;
+  font-size:16px;
+  line-height:27px;
   color:#000;
   }
   
@@ -62,7 +62,9 @@ article {
   padding-left:44px; 
   background:url('../../../images/banner.png') no-repeat 0px 4px; 
   margin-bottom:40px;
+  position:relative;
   }
+article a.permalink { }
 article header { margin-bottom:10px; }
 
 article header h2, article header h3 {  
