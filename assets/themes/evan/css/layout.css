@@ -58,12 +58,16 @@ aside.colophon h3 {
   }
 
 
-article { padding-left:44px; background:url('../../../images/banner.png') no-repeat 0px 4px; }
+article { 
+  padding-left:44px; 
+  background:url('../../../images/banner.png') no-repeat 0px 4px; 
+  margin-bottom:40px;
+  }
 article header { margin-bottom:10px; }
 
 article header h2, article header h3 {  
   font-size:26px;
-  margin-bottom:24px;
+  margin-bottom:18px;
  }
 
 /* #Post Styles
