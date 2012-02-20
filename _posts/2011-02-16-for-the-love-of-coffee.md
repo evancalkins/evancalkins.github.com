@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "For the Love of Coffee"
-category: Craft
+category: Coffee
 tags: []
 ---
 {% include JB/setup %}
