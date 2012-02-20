@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 
-body { margin-top:40px; margin-bottom:40px; }
+body { margin-top:40px; margin-bottom:40px; background:url('../../../images/bg.png'); }
 
 p {
   font-family: "droid-serif", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; 
@@ -57,7 +57,6 @@ aside.colophon h3 {
   letter-spacing:2px;
   }
 
-
 article { 
   padding-left:44px; 
   background:url('../../../images/banner.png') no-repeat 0px 4px; 
@@ -71,6 +70,12 @@ article header h2, article header h3 {
   font-size:26px;
   margin-bottom:18px;
  }
+
+article header h2 a, article header h3 a { padding-left:12px; font-size:14px;  }
+
+article img { margin-bottom:16px; max-width:100%; }
+article img.left { float:left; padding-right:30px; padding-bottom:10px; }
+article img.right { float:right; padding-left:30px; padding-bottom:10px; }
 
 /* #Post Styles
 ================================================== */

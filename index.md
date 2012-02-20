@@ -6,9 +6,8 @@ title: evancalkins.net
 
 {% for post in site.posts %}
   <article>
-    <a class="permalink" href="{{ BASE_PATH }}{{ post.url }}">∞</a>
     <header>
-  	  <h3>{{ post.title }}</h3>
+  	  <h3>{{ post.title }}<a class="permalink" href="{{ BASE_PATH }}{{ post.url }}">∞</a></h3>
   	</header>
   	{{ post.content }}
   	<!--<h5>{{ post.date | date_to_string }}</h5>-->
