@@ -17,12 +17,12 @@
 /* #Site Styles
 ================================================== */
 
-body { margin-top:40px; margin-bottom:40px; background:url('../../../images/bg.png'); }
+body { margin-top:60px; margin-bottom:40px; background:url('../../../images/bg.png'); }
 
-p {
-  font-family: "droid-serif", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; 
-  font-size:15px; 
-  line-height:24px;
+p, li {
+  font-family: "droid-serif", "Georgia", "Times New Roman"; 
+  font-size:16px; 
+  line-height:25px;
   color:#464646;
   }
 
@@ -36,25 +36,34 @@ h1 {
   line-height:normal;
   }
 
+
 .content { padding-right:42px; }
 
 
-aside { margin-top:36px; }
+aside.colophon { margin-top:36px; border-bottom:3px solid #000; }
 
 aside.colophon p {  
-  font-size:16px;
-  line-height:27px;
+  font-size:18px;
+  line-height:28px;
   color:#000;
   }
   
 aside.colophon h3 {
   font-family: 'LeagueGothicRegular';
   text-transform:uppercase;
-  font-size:36px;
+  font-size:30px;
   border-bottom:3px solid #000;
   padding-bottom:10px;
-  margin-bottom:20px;
+  margin-bottom:19px;
   letter-spacing:2px;
+  }
+
+aside.colophon h3 span { 
+  font-family: "droid-serif", "Georgia", "Times New Roman"; 
+  font-style:italic; 
+  text-transform:none;
+  font-size:15px;
+  letter-spacing:0px;
   }
 
 article { 
@@ -63,13 +72,19 @@ article {
   margin-bottom:40px;
   position:relative;
   }
+  
 article a.permalink { }
 article header { margin-bottom:10px; }
 
 article header h2, article header h3 {  
-  font-size:26px;
+  font-size:29px;
   margin-bottom:18px;
+  letter-spacing:normal;
+  text-transform:inherit;
  }
+
+article h3 { font-size:22px; color:#000; line-height:36px; }
+article h4 { font-size:19px; color:#000; line-height:36px; }
 
 article header h2 a, article header h3 a { padding-left:12px; font-size:14px;  }
 
